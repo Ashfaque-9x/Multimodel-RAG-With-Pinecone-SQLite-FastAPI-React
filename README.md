@@ -12,6 +12,14 @@ This project adapts the supplied `pdf-rag-chat-main` example's **FastAPI + Uvico
 - Per-PDF chat history in SQLite, source metadata, retrieved images, PDF selection, clear-chat, and delete-PDF functionality.
 - A React UI that offers PDF upload, a list of indexed PDFs, chat history, Markdown answers, retrieved images, and expandable source details.
 
+## System Architecture
+
+The following diagram illustrates the complete architecture of the
+Multimodal PDF RAG application, including document ingestion,
+semantic retrieval, SQLite persistence, and answer generation.
+
+![Multimodal PDF RAG Architecture](assets/Multimodal%20PDF%20RAG%20Architecture.png)
+
 ## Project structure
 
 ```text
