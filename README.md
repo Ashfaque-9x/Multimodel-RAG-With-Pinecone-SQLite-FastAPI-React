@@ -160,4 +160,6 @@ The old Qdrant vectors are **not copied** to Pinecone. The SQLite schema migrati
 - Large PDFs may take a while to process; the frontend and API allow a longer request timeout.
 - Pinecone is a hosted service and requires outbound internet access from the backend.
 
+## Video Tutorial for this Project
+
 [![Watch the video](https://img.youtube.com/vi/BLbvTOomzb0/maxresdefault.jpg)](https://www.youtube.com/watch?v=BLbvTOomzb0)
